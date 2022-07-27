@@ -6,7 +6,7 @@ export default function Entry({img,location,googleMapsUrl,title,startDate,endDat
             <img className="entry--image" src={img} />
             <div className="entry--info">
                 <div className="same--line">
-                    <img className="location--logo" src="src/assets/location-logo.png" />
+                    <img className="location--logo" src="/assets/location-logo.png" />
                     <h3 className="entry--location">{location.toUpperCase()}</h3>
                     <a className="entry--link" href={googleMapsUrl}>View on Google Maps</a>
                 </div>
