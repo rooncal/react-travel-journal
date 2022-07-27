@@ -1,12 +1,15 @@
 import React from 'react'
 import './App.css'
+import Navbar from './components/Navbar'
+import Log from './components/Log'
 
-function App() {
+export default function App() {
 
   return (
     <div className="App">
+      <Navbar/>
+      <Log />
     </div>
   )
 }
 
-export default App
